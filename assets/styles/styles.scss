@@ -1,0 +1,67 @@
+//colors
+$main-blue: #11749e;
+$text-color: #222222;
+$icons-color: #f5f5f5;
+$icons-blue: #2e85aa;
+
+//basic setting
+html {
+  font-family: "Myriad Pro", sans-serif;
+}
+main {
+  background-image: url("../images/first-section-background.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .main-title-row {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 150px;
+
+    .main-title {
+      font-size: 78px;
+      text-align: center;
+    }
+    .main-subtitle {
+      color: $main-blue;
+      text-align: center;
+      letter-spacing: 6px;
+    }
+  }
+}
+
+section {
+  padding: 10rem 0;
+}
+
+.header {
+  height: 90px;
+  border-bottom: 1px solid #7f7f7f;
+  color: white;
+
+  &.navbar {
+    display: block;
+    a {
+      color: white;
+      &:hover {
+        color: #7f7f7f;
+      }
+    }
+  }
+  .navbar-nav {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+  .icons {
+    display: flex;
+    color: white;
+    .icon-block {
+      margin: 0 9px;
+      img {
+        height: 20px;
+        width: auto;
+      }
+    }
+  }
+}
