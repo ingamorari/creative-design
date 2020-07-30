@@ -1,0 +1,17 @@
+html { font-family: "Myriad Pro", sans-serif; }
+
+main { background-image: url("../images/first-section-background.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; }
+main .main-title-row { color: white; text-transform: uppercase; padding-top: 150px; }
+main .main-title-row .main-title { font-size: 78px; text-align: center; }
+main .main-title-row .main-subtitle { color: #11749e; text-align: center; letter-spacing: 6px; }
+
+section { padding: 10rem 0; }
+
+.header { height: 90px; border-bottom: 1px solid #7f7f7f; color: white; }
+.header.navbar { display: block; }
+.header.navbar a { color: white; }
+.header.navbar a:hover { color: #7f7f7f; }
+.header .navbar-nav { padding-left: 0.8rem; padding-right: 0.8rem; }
+.header .icons { display: flex; color: white; }
+.header .icons .icon-block { margin: 0 9px; }
+.header .icons .icon-block img { height: 20px; width: auto; }
