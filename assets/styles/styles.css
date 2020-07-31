@@ -4,8 +4,11 @@ main { background-image: url("../images/first-section-background.png"); height: 
 main .main-title-row { color: white; text-transform: uppercase; padding-top: 150px; }
 main .main-title-row .main-title { font-size: 78px; text-align: center; }
 main .main-title-row .main-subtitle { color: #11749e; text-align: center; letter-spacing: 6px; }
-
-section { padding: 10rem 0; }
+main .scroll-row { padding: 100px; }
+main .scroll-row .scroll-down-block { margin: auto; color: white; font-size: 12px; width: 65px; }
+main .scroll-row .scroll-down-block .scroll-button { transition: 0.2s ease-in-out; background: none; border: 1px solid #dbdbda; padding: 12px 20px; border-radius: 50%; width: 65px; height: 65px; }
+main .scroll-row .scroll-down-block .scroll-button:hover { background: #11749e; transform: scale(1.1); box-shadow: #222222; }
+main .scroll-row .scroll-down-block .scroll-button:focus { outline: none; }
 
 .header { height: 90px; border-bottom: 1px solid #7f7f7f; color: white; }
 .header.navbar { display: block; }
@@ -15,3 +18,15 @@ section { padding: 10rem 0; }
 .header .icons { display: flex; color: white; }
 .header .icons .icon-block { margin: 0 9px; }
 .header .icons .icon-block img { height: 20px; width: auto; }
+
+section { padding: 5rem 0; height: auto; background-color: #11749e; }
+section .main-title-features { color: white; text-transform: uppercase; }
+section .main-title-features .title-w { position: absolute; font-size: 180px; opacity: 0.1803921568627451; text-align: center; font-weight: bold; }
+section .main-title-features .title-features { font-size: 30px; text-align: center; display: flex; height: 20rem; }
+section .main-title-features .title-features div { margin: auto; }
+section .features { color: white; align-content: center; }
+section .features .features-block { display: flex; flex-direction: column; text-align: center; }
+section .features .features-block .icon-block { margin: 20px auto; height: 70px; width: 70px; display: flex; background-color: #2e85aa; border-radius: 50%; }
+section .features .features-block .icon-block img { height: 20px; margin: auto; width: auto; }
+section .features .features-block h3 { font-size: 18px; text-align: center; }
+section .features .features-block p { font-size: 15px; text-transform: none; }

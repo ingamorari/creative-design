@@ -8,12 +8,14 @@ $icons-blue: #2e85aa;
 html {
   font-family: "Myriad Pro", sans-serif;
 }
+
 main {
   background-image: url("../images/first-section-background.png");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   .main-title-row {
     color: white;
     text-transform: uppercase;
@@ -23,16 +25,40 @@ main {
       font-size: 78px;
       text-align: center;
     }
+
     .main-subtitle {
       color: $main-blue;
       text-align: center;
       letter-spacing: 6px;
     }
   }
-}
+  .scroll-row {
+    padding: 100px;
+    .scroll-down-block {
+      margin: auto;
+      color: white;
+      font-size: 12px;
+      width: 65px;
+      .scroll-button {
+        transition: 0.2s ease-in-out;
+        background: none;
+        border: 1px solid #dbdbda;
+        padding: 12px 20px;
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
 
-section {
-  padding: 10rem 0;
+        &:hover {
+          background: $main-blue;
+          transform: scale(1.1);
+          box-shadow: #222222;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
 }
 
 .header {
@@ -42,25 +68,99 @@ section {
 
   &.navbar {
     display: block;
+
     a {
       color: white;
+
       &:hover {
         color: #7f7f7f;
       }
     }
   }
+
   .navbar-nav {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
   }
+
   .icons {
     display: flex;
     color: white;
+
     .icon-block {
       margin: 0 9px;
+
       img {
         height: 20px;
         width: auto;
+      }
+    }
+  }
+}
+
+section {
+  padding: 5rem 0;
+  height: auto;
+  background-color: $main-blue;
+
+  //background-position: center;
+  //background-size: cover;
+  .main-title-features {
+    color: white;
+    text-transform: uppercase;
+
+    .title-w {
+      position: absolute;
+      font-size: 180px;
+      opacity: 0.1803921568627451;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .title-features {
+      font-size: 30px;
+      text-align: center;
+      display: flex;
+      height: 20rem;
+
+      div {
+        margin: auto;
+      }
+    }
+  }
+
+  .features {
+    color: white;
+    align-content: center;
+
+    .features-block {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      .icon-block {
+        margin: 20px auto;
+        height: 70px;
+        width: 70px;
+        display: flex;
+        background-color: $icons-blue;
+        border-radius: 50%;
+
+        img {
+          height: 20px;
+          margin: auto;
+          width: auto;
+        }
+      }
+
+      h3 {
+        font-size: 18px;
+        text-align: center;
+      }
+
+      p {
+        font-size: 15px;
+        text-transform: none;
       }
     }
   }
