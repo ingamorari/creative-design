@@ -357,5 +357,45 @@ section#fourth-section {
     color: white;
   }
 }
+section#five-section {
+  background-image: url("../images/five-section-background.png");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 0;
+  .image-block {
+    display: flex;
+    img {
+      height: 450px;
+      margin: auto;
+    }
+  }
+  .text-block {
+    color: white;
+    h4 {
+      margin: 10px 0 20px;
+      text-transform: uppercase;
+    }
+    .advantage-block {
+      margin-top: 100px;
+      .advantage-item {
+        text-transform: uppercase;
+        background-color: $main-blue;
+        margin: 20px 0;
 
-@import "mobie";
+        &.item-1 {
+          width: 80%;
+        }
+        &.item-2 {
+          width: 90%;
+        }
+        &.item-3 {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@import "mobile";

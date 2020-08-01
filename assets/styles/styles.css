@@ -76,6 +76,17 @@ section#fourth-section .icon-block { margin: auto 20px auto 0; }
 section#fourth-section .icon-block img { height: 50px; }
 section#fourth-section .text-block { margin: auto; color: white; }
 
+section#five-section { background-image: url("../images/five-section-background.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; padding: 5rem 0; }
+section#five-section .image-block { display: flex; }
+section#five-section .image-block img { height: 450px; margin: auto; }
+section#five-section .text-block { color: white; }
+section#five-section .text-block h4 { margin: 10px 0 20px; text-transform: uppercase; }
+section#five-section .text-block .advantage-block { margin-top: 100px; }
+section#five-section .text-block .advantage-block .advantage-item { text-transform: uppercase; background-color: #11749e; margin: 20px 0; }
+section#five-section .text-block .advantage-block .advantage-item.item-1 { width: 80%; }
+section#five-section .text-block .advantage-block .advantage-item.item-2 { width: 90%; }
+section#five-section .text-block .advantage-block .advantage-item.item-3 { width: 100%; }
+
 @media (max-width: 992px) { section#second-section .first-info-row { display: block; }
   section#second-section .first-info-row .background-block { width: unset; height: 350px; }
   section#second-section .first-info-row-text { display: block; }
@@ -84,4 +95,5 @@ section#fourth-section .text-block { margin: auto; color: white; }
   section#second-section .second-info-row-text .image-block { display: none; }
   section#second-section .second-info-row-text .background-block { width: unset; height: 350px; padding: 50px 0; }
   section#second-section .second-info-row { display: block; }
-  section#second-section .second-info-row .background-block { width: unset; height: 350px; } }
+  section#second-section .second-info-row .background-block { width: unset; height: 350px; }
+  section#five-section { height: 970px; } }
