@@ -10,6 +10,8 @@ main .scroll-row .scroll-down-block .scroll-button { transition: 0.2s ease-in-ou
 main .scroll-row .scroll-down-block .scroll-button:hover { background: #11749e; transform: scale(1.1); box-shadow: #222222; }
 main .scroll-row .scroll-down-block .scroll-button:focus { outline: none; }
 
+.navbar-class { display: flex; }
+
 .header { height: 90px; border-bottom: 1px solid #7f7f7f; color: white; }
 .header.navbar { display: block; }
 .header.navbar a { color: white; }
@@ -116,7 +118,13 @@ section#seven-section .main-title-form .submit-btn-block .submit-btn { backgroun
 section#seven-section .main-title-form .submit-btn-block .submit-btn:disabled { background-color: #646262; color: black; }
 section#seven-section .main-title-form .submit-btn-block .submit-btn:hover:not([disabled]) { background-color: #0d5674d4; color: #bdbdbd; }
 
-@media (max-width: 992px) { section#second-section .first-info-row { display: block; }
+section#footer-section { padding: 30px 0; height: auto; background-color: #222222; }
+section#footer-section .text-style { color: white; font-size: 12px; }
+
+@media (max-width: 992px) { main .header #navbarNav { position: absolute; right: 0; text-align: end; top: 80px; }
+  main .header .links-block { order: 2; position: relative; }
+  main .header .icons-block { order: 1; }
+  section#second-section .first-info-row { display: block; }
   section#second-section .first-info-row .background-block { width: unset; height: 350px; }
   section#second-section .first-info-row-text { display: block; }
   section#second-section .first-info-row-text .background-block { width: unset; height: 350px; }

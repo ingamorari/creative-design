@@ -1,4 +1,21 @@
 @media (max-width: 992px) {
+  main {
+    .header {
+      #navbarNav {
+        position: absolute;
+        right: 0;
+        text-align: end;
+        top: 80px;
+      }
+      .links-block {
+        order: 2;
+        position: relative;
+      }
+      .icons-block {
+        order: 1;
+      }
+    }
+  }
   section#second-section {
     .info-block {
       .date {

@@ -59,7 +59,9 @@ main {
     }
   }
 }
-
+.navbar-class {
+  display: flex;
+}
 .header {
   height: 90px;
   border-bottom: 1px solid #7f7f7f;
@@ -547,6 +549,15 @@ section#seven-section {
         }
       }
     }
+  }
+}
+section#footer-section {
+  padding: 30px 0;
+  height: auto;
+  background-color: $text-color;
+  .text-style {
+    color: white;
+    font-size: 12px;
   }
 }
 
