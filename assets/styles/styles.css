@@ -19,7 +19,7 @@ main .scroll-row .scroll-down-block .scroll-button:focus { outline: none; }
 .header .icons .icon-block { margin: 0 9px; }
 .header .icons .icon-block img { height: 20px; width: auto; }
 
-section#first-section { padding: 5rem 0; height: auto; background-color: #11749e; }
+section#first-section { padding: 50px 0; height: auto; background-color: #11749e; }
 section#first-section .main-title-features { color: white; text-transform: uppercase; }
 section#first-section .main-title-features .title-w { position: absolute; font-size: 150px; opacity: 0.1803921568627451; text-align: center; font-weight: bold; }
 section#first-section .main-title-features .title-features { font-size: 30px; text-align: center; display: flex; height: 15rem; }
@@ -58,7 +58,7 @@ section#second-section .second-info-row .background-block { width: 50%; backgrou
 section#second-section .second-info-row .background-block .text-block { color: #222222; }
 section#second-section .second-info-row .image-block { background-image: url("../images/second-news-background.png"); }
 
-section#third-section { padding: 5rem 0; height: auto; }
+section#third-section { padding: 50px 0; height: auto; }
 section#third-section .main-title-blog { color: #222222; text-transform: uppercase; }
 section#third-section .main-title-blog .title-b { position: absolute; font-size: 140px; opacity: 0.1803921568627451; text-align: center; font-weight: bold; }
 section#third-section .main-title-blog .title-blog { font-size: 40px; text-align: center; display: flex; height: 14rem; }
@@ -71,21 +71,50 @@ section#third-section .blogs .blogs-block .image-block img { height: 200px; widt
 section#third-section .blogs .blogs-block h3 { font-size: 18px; text-align: center; color: #11749e; margin: 10px 0; }
 section#third-section .blogs .blogs-block p { font-size: 14px; text-transform: none; }
 
-section#fourth-section { background-color: #11749e; padding: 5rem 0; }
+section#fourth-section { background-color: #11749e; padding: 50px 0; }
 section#fourth-section .icon-block { margin: auto 20px auto 0; }
 section#fourth-section .icon-block img { height: 50px; }
 section#fourth-section .text-block { margin: auto; color: white; }
 
-section#five-section { background-image: url("../images/five-section-background.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; padding: 5rem 0; }
+section#five-section { background-image: url("../images/five-section-background.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; padding: 50px 0; }
 section#five-section .image-block { display: flex; }
 section#five-section .image-block img { height: 450px; margin: auto; }
-section#five-section .text-block { color: white; }
+section#five-section .text-block { color: white; margin: auto; }
 section#five-section .text-block h4 { margin: 10px 0 20px; text-transform: uppercase; }
 section#five-section .text-block .advantage-block { margin-top: 100px; }
-section#five-section .text-block .advantage-block .advantage-item { text-transform: uppercase; background-color: #11749e; margin: 20px 0; }
+section#five-section .text-block .advantage-block .advantage-item { text-transform: uppercase; background-color: #11749e; margin: 20px 0; padding-left: 10px; }
 section#five-section .text-block .advantage-block .advantage-item.item-1 { width: 80%; }
 section#five-section .text-block .advantage-block .advantage-item.item-2 { width: 90%; }
 section#five-section .text-block .advantage-block .advantage-item.item-3 { width: 100%; }
+
+section#six-section { padding: 50px 0; height: auto; }
+section#six-section .main-title-team { color: #222222; text-transform: uppercase; }
+section#six-section .main-title-team .title-t { position: absolute; font-size: 140px; opacity: 0.1803921568627451; text-align: center; font-weight: bold; }
+section#six-section .main-title-team .title-team { font-size: 40px; text-align: center; display: flex; height: 14rem; }
+section#six-section .main-title-team .title-team div { margin: auto; }
+section#six-section .main-title-team .subtitle-team { text-align: center; margin-bottom: 30px; text-transform: none; }
+section#six-section .team { align-content: center; }
+section#six-section .team .team-block { display: flex; flex-direction: column; text-align: center; }
+section#six-section .team .team-block .image-block { display: flex; margin: 20px auto; background-position: center; background-repeat: no-repeat; background-size: cover; height: 300px; width: 100%; }
+section#six-section .team .team-block .team-member { width: 80%; background-color: white; top: -50px; position: relative; margin: auto; }
+section#six-section .team .team-block .team-member .name-member { font-size: 15px; color: #11749e; }
+section#six-section .team .team-block .team-member .position-member { font-size: 10px; color: #000000; text-transform: none; }
+
+section#seven-section { padding: 50px 0; background-image: url("../images/seven-section-background.png"); height: auto; background-position: center; background-repeat: no-repeat; background-size: cover; }
+section#seven-section .main-title-form { color: white; text-transform: uppercase; }
+section#seven-section .main-title-form .title-c { position: absolute; font-size: 200px; opacity: 0.1803921568627451; text-align: center; font-weight: bold; }
+section#seven-section .main-title-form .title-form { font-size: 30px; text-align: center; display: flex; height: 20rem; }
+section#seven-section .main-title-form .title-form div { margin: auto; }
+section#seven-section .main-title-form .form-block { align-content: center; }
+section#seven-section .main-title-form .form-block .form-block-one { display: flex; flex-direction: column; }
+section#seven-section .main-title-form .form-block .form-block-one ::placeholder { color: white; padding-left: 5px; font-size: 15px; }
+section#seven-section .main-title-form .form-block .form-block-one input { background-color: transparent; border: 1px solid white; color: white; padding: 5px; }
+section#seven-section .main-title-form .form-block-two { margin: auto; }
+section#seven-section .main-title-form .form-block-two ::placeholder { color: white; padding-left: 5px; font-size: 15px; }
+section#seven-section .main-title-form .form-block-two textarea { background-color: transparent; border: 1px solid white; color: white; padding: 5px; font-size: 15px; }
+section#seven-section .main-title-form .submit-btn-block .submit-btn { background-color: #11749e; color: white; border: none; padding: 6px 36px; font-size: 18px; text-transform: uppercase; margin-top: 30px; }
+section#seven-section .main-title-form .submit-btn-block .submit-btn:disabled { background-color: #646262; color: black; }
+section#seven-section .main-title-form .submit-btn-block .submit-btn:hover:not([disabled]) { background-color: #0d5674d4; color: #bdbdbd; }
 
 @media (max-width: 992px) { section#second-section .first-info-row { display: block; }
   section#second-section .first-info-row .background-block { width: unset; height: 350px; }
@@ -97,3 +126,22 @@ section#five-section .text-block .advantage-block .advantage-item.item-3 { width
   section#second-section .second-info-row { display: block; }
   section#second-section .second-info-row .background-block { width: unset; height: 350px; }
   section#five-section { height: 970px; } }
+@media (max-width: 768px) { main .main-title-row .main-title { font-size: 45px; text-align: center; }
+  main .main-title-row .main-subtitle { letter-spacing: 4px; }
+  section#first-section { padding: 30px 0; }
+  section#second-section .first-info-row-text .background-block, section#second-section .second-info-row-text .background-block { padding: 30px 0; }
+  section#third-section { padding: 30px 0; }
+  section#fourth-section { padding: 30px 0; }
+  section#five-section { padding: 30px 0; }
+  section#six-section { padding: 30px 0; }
+  section#six-section .team .team-block .image-block { height: 500px; } }
+@media (max-width: 450px) { section#six-section .team .team-block .image-block { height: 350px; }
+  section#first-section { padding: 20px 0; }
+  section#second-section .first-info-row, section#second-section .second-info-row { height: 380px; }
+  section#second-section .first-info-row .background-block, section#second-section .second-info-row .background-block { padding: 20px 0; height: 380px; }
+  section#second-section .first-info-row-text, section#second-section .second-info-row-text { height: 380px; }
+  section#second-section .first-info-row-text.second-info-row-text, section#second-section .second-info-row-text.second-info-row-text { top: 380px; }
+  section#second-section .first-info-row-text .background-block .text-block p, section#second-section .second-info-row-text .background-block .text-block p { font-size: 14px; }
+  section#third-section { padding: 20px 0; }
+  section#fourth-section { padding: 20px 0; }
+  section#five-section { padding: 20px 0; } }

@@ -98,7 +98,7 @@ main {
 }
 
 section#first-section {
-  padding: 5rem 0;
+  padding: 50px 0;
   height: auto;
   background-color: $main-blue;
 
@@ -284,7 +284,7 @@ section#second-section {
   }
 }
 section#third-section {
-  padding: 5rem 0;
+  padding: 50px 0;
   height: auto;
   .main-title-blog {
     color: $text-color;
@@ -345,7 +345,7 @@ section#third-section {
 }
 section#fourth-section {
   background-color: $main-blue;
-  padding: 5rem 0;
+  padding: 50px 0;
   .icon-block {
     margin: auto 20px auto 0;
     img {
@@ -363,7 +363,7 @@ section#five-section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5rem 0;
+  padding: 50px 0;
   .image-block {
     display: flex;
     img {
@@ -373,6 +373,7 @@ section#five-section {
   }
   .text-block {
     color: white;
+    margin: auto;
     h4 {
       margin: 10px 0 20px;
       text-transform: uppercase;
@@ -383,6 +384,7 @@ section#five-section {
         text-transform: uppercase;
         background-color: $main-blue;
         margin: 20px 0;
+        padding-left: 10px;
 
         &.item-1 {
           width: 80%;
@@ -392,6 +394,156 @@ section#five-section {
         }
         &.item-3 {
           width: 100%;
+        }
+      }
+    }
+  }
+}
+section#six-section {
+  padding: 50px 0;
+  height: auto;
+  .main-title-team {
+    color: $text-color;
+    text-transform: uppercase;
+    .title-t {
+      position: absolute;
+      font-size: 140px;
+      opacity: 0.1803921568627451;
+      text-align: center;
+      font-weight: bold;
+    }
+    .title-team {
+      font-size: 40px;
+      text-align: center;
+      display: flex;
+      height: 14rem;
+      div {
+        margin: auto;
+      }
+    }
+    .subtitle-team {
+      text-align: center;
+      margin-bottom: 30px;
+      text-transform: none;
+    }
+  }
+  .team {
+    align-content: center;
+
+    .team-block {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      .image-block {
+        display: flex;
+        margin: 20px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+      }
+      .team-member {
+        width: 80%;
+        background-color: white;
+        top: -50px;
+        position: relative;
+        margin: auto;
+        .name-member {
+          font-size: 15px;
+          color: $main-blue;
+        }
+        .position-member {
+          font-size: 10px;
+          color: #000000;
+          text-transform: none;
+        }
+      }
+    }
+  }
+}
+section#seven-section {
+  padding: 50px 0;
+  background-image: url("../images/seven-section-background.png");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .main-title-form {
+    color: white;
+    text-transform: uppercase;
+
+    .title-c {
+      position: absolute;
+      font-size: 200px;
+      opacity: 0.1803921568627451;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .title-form {
+      font-size: 30px;
+      text-align: center;
+      display: flex;
+      height: 20rem;
+
+      div {
+        margin: auto;
+      }
+    }
+
+    .form-block {
+      align-content: center;
+      .form-block-one {
+        display: flex;
+        flex-direction: column;
+
+        ::placeholder {
+          color: white;
+          padding-left: 5px;
+          font-size: 15px;
+        }
+
+        input {
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+          padding: 5px;
+        }
+      }
+    }
+    .form-block-two {
+      margin: auto;
+      ::placeholder {
+        color: white;
+        padding-left: 5px;
+        font-size: 15px;
+      }
+      textarea {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 5px;
+        font-size: 15px;
+      }
+    }
+    .submit-btn-block {
+      .submit-btn {
+        background-color: $main-blue;
+        color: white;
+        border: none;
+        padding: 6px 36px;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        &:disabled {
+          background-color: #646262;
+          color: black;
+        }
+        &:hover:not([disabled]) {
+          background-color: #0d5674d4;
+          color: #bdbdbd;
         }
       }
     }
